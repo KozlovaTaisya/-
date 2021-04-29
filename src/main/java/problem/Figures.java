@@ -69,7 +69,6 @@ public class Figures {
             gl.glVertex2d(pos4.x, pos4.y);
             gl.glVertex2d(pos1.x, pos1.y);
             gl.glEnd();
-
         }
     }
     public static void renderCircle(GL2 gl, Vec2 pos, float size) {
